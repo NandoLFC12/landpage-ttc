@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chromakopia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        /* Estilos personalizados */
+
+ @font-face {
+      font-family: 'Chromakopia';
+      src: url('Chromakopia.woff2') format('woff2'),
+           url('Chromakopia.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+.navbar-brand, .nav-link, header {
+    font-family: 'Chromakopia', sans-serif;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        header, nav {
+            background-color: #008000;
+            padding: 10px;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background-color: #222;
+        }
+        .section h2 {
+            margin-bottom: 15px;
+            color: #00ff00;
+        }
+        .carousel-inner img {
+            max-width: 80%;
+            max-height: 400px;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+        .intro {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .intro img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-left: -20px;
+        }
+        .intro img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-left: -20px;
+        }
+        .intro .text {
+            max-width: 600px;
+            text-align: left;
+        }
+
+
+        /* sessão Chromakopia */
+        
+   /* Estilização para a seção Chromakopia */
+.intro {
+    display: flex;
+    justify-content: space-between; /* Espaça texto e imagem */
+    align-items: flex-start;       /* Alinha ao topo */
+    flex-wrap: nowrap;             /* Garante alinhamento horizontal */
+    gap: 20px;                     /* Espaçamento entre os elementos */
+}
+
+.intro .text {
+    flex: 1;                       /* Faz o texto ocupar o máximo de espaço possível */
+    text-align: left;
+}
+
+.intro img {
+    max-width: 300px;              /* Define largura máxima para a imagem */
+    height: auto;                  /* Mantém proporção da imagem */
+    border-radius: 8px;            /* Bordas arredondadas */
+    object-fit: cover;             /* Garante adaptação da imagem */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center"> <img src="Chromakopia sem fundo.png" alt=""></h1>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: black;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                
+            <li class="nav-item">
+                    <a class="nav-link" href="#tyler" style="color: black;">Biografia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Chromakopia" style="color: black;">Chromakopia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#outros-albuns" style="color: black;">Outros álbuns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Frank Ocean" style="color: black;">Frank Ocean</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#lancamento" style="color: black;">Lançamento</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    </nav>
+    
+    <main>
+        <!-- Seção Tyler -->
+        <section id="tyler" class="section">
+            <div class="intro">
+                <div class="text">
+                    <h2>Biografia</h2>
+                    <p>
+                        Nascido em Ladera Heights, Tyler, The Creator ganhou destaque como o líder e co-fundador do coletivo de hip hop alternativo Odd Future...
+                    </p>
+                    <p>
+                        Tyler, The Creator é conhecido por sua abordagem única e inovadora na música. Neste álbum, ele combina diferentes estilos para criar uma experiência inesquecível.
+                    </p>
+                </div>
+                <img src="Tyler the creator.jpg" alt="Tyler, The Creator">
+            </div>
+        </section>
+        
+
+        <!-- Carrossel de imagens -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Chromakopia.jpeg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Chromakopia by Tyler the Creator.jpg" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Chromakopia; Tyler, the Creator.jpg" class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="CHROMAKOPIA (1).jpg" class="d-block w-100" alt="Imagem 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Seção Chromakopia -->
+        <section id="Chromakopia" class="section">
+            <div class="intro">
+                <div class="text">
+                    <h2>Chromakopia</h2>
+                    <p>
+                        Com o curta <b>ST.CHROMA</b>, Tyler, the Creator apresenta uma prévia ousada e experimental de <b>CHROMAKOPIA</b>, seu próximo álbum, explorando temas como identidade e autodescoberta com uma estética visual e sonora inovadora.
+                    </p>
+                    <p>
+                        O lançamento do single <b>Noid</b> em 21 de agosto, com a participação de WILLOW, destacou reflexões pessoais e críticas sociais em uma produção dinâmica, alimentando as expectativas para o álbum. <b>CHROMAKOPIA</b> promete ser um marco na carreira de Tyler, com camadas emocionais e sonoridades que expandem ainda mais seu estilo único.
+                    </p>
+                </div>
+                <img src="Data chromakopia.png" alt="Capa do álbum Chromakopia">
+            </div>
+        </section>
+        
+
+        <!-- Seção Outros álbuns -->
+        <section id="outros-albuns" class="section">
+            <h2>Outros álbuns</h2>
+            <p>
+                Goblin (2011)
+Em Goblin, Tyler se apresenta como uma figura provocadora e sombria, explorando temas de raiva, conflitos internos e críticas à sociedade. Seu estilo musical é marcado pelo Hip Hop agressivo, com batidas pesadas e uma sonoridade que remete ao seu trabalho com o coletivo Odd Future. O álbum tem um tom de rebeldia juvenil e um uso de letras provocativas, como em "Yonkers", onde Tyler explora sua relação com a fama e as expectativas sobre ele. O estilo é cru e muitas vezes confrontador, estabelecendo Tyler como uma figura anti-establishment no cenário do Hip Hop.
+</p>
+
+<p>Wolf (2013)
+Em Wolf, Tyler começa a amadurecer, apresentando uma nova gama de personagens, como Sam e Dr. Tyler, e misturando elementos de Hip Hop com sintetizadores e batidas experimentais. O álbum mostra uma mudança na sua abordagem lírica, com faixas que misturam agressividade com introspecção. "Cowboy" é um exemplo disso, retratando uma juventude que escolhe o trabalho em vez das drogas. A produção se torna mais refinada, com influências de jazz e R&B. Tyler também começa a brincar com sua imagem, usando ironia e distanciamento da postura "straight edge" que ele mesmo assume, e com um estilo mais acessível.
+</p>
+
+<p>Flower Boy (2017)
+Flower Boy marca uma transformação profunda na carreira de Tyler. Ele abandona a atitude provocadora de seus primeiros álbuns e começa a explorar temas como autoconhecimento, inseguranças e sexualidade de uma forma sincera. A produção se distanciar do Hip Hop tradicional, com a adição de elementos de música eletrônica, jazz e R&B. O álbum é suave e introspectivo, e é frequentemente visto como um dos melhores trabalhos de Tyler, devido à sua produção sofisticada e à vulnerabilidade emocional presente nas letras. Faixas como "See You Again" e "911 / Mr. Lonely" são grandes exemplos dessa nova abordagem. 
+</p>
+<p>IGOR (2019)
+IGOR marca o auge de uma fase experimental e emocional na carreira de Tyler. O álbum é um mix de Hip Hop, R&B, música eletrônica e pop, e explora temas de amor, desilusão e conflito emocional. A produção é inovadora, com camadas de sintetizadores, vocais distorcidos e um uso criativo da voz de Tyler, que alterna entre cantando e usando vocais modificados. O álbum foi aclamado por sua coragem criativa e profundidade emocional, e é considerado uma obra-prima na carreira do artista. A narrativa do álbum segue o arco de um relacionamento turbulento e a busca por identidade e aceitação.
+</p>
+<p>
+    Call Me If You Get Lost (2021)
+Em Call Me If You Get Lost, Tyler mistura hip hop, rap e influências de soul e jazz. O álbum possui uma pegada mais voltada para o estilo de vida de luxo e suas ambições, mas também fala sobre inseguranças e o caminho que levou Tyler até ali. O disco explora uma estética de viagem, com samples de 90s R&B e batidas minimalistas. O álbum possui músicas como "Lumberjack" e "Hot Wind Blows" que misturam rap e elementos de produção clássica.
+</p>
+<div class="intro">
+                <img src="Albuns Tyler.png" alt="Capa do álbum Chromakopia">
+            </div>
+            </p>
+        </section>
+
+        <!-- Seção Frank Ocean -->
+        <section id="Frank Ocean" class="section">
+            <h2>Frank Ocean</h2>
+            <p>Frank Ocean e Tyler têm uma amizade muito próxima. Eles compartilham uma parceria criativa que se reflete em suas músicas e em colaborações de longa data. Frank foi um dos primeiros a influenciar a abordagem artística de Tyler, especialmente no que diz respeito a temas mais íntimos e vulneráveis, como a identidade sexual e as questões emocionais em suas músicas.</p>
+        <div class="intro">
+                <img src="Frank Ocean - Blonde album cover expanded.jpg" alt="Capa do álbum Chromakopia">
+            </div>
+        </section>
+
+        <!-- Seção Lançamento -->
+        <section id="lancamento" class="section">
+            <h2>Lançamento de Chromakopia</h2>
+            <p>O lançamento de CHROMAKOPIA em 28 de outubro de 2024, além de ser um marco na carreira de Tyler, The Creator, também trouxe uma proposta musical e pessoalmente íntima. Com o álbum, ele não apenas expandiu seu leque de influências, mas também incluiu toques emocionais profundos, como trechos das conversas com sua mãe, criando uma conexão direta e humana com os ouvintes. A introdução e finalização de várias faixas com palavras dela funcionam como uma âncora emocional ao longo do álbum, mostrando uma vulnerabilidade inédita e um relacionamento familiar complexo, mas repleto de carinho.
+
+<p>Ao encerrar o álbum com a música I Hope You Find Way Home, Tyler reforça o tema de pertencimento e autodescoberta, deixando o ouvinte imerso em um loop sonoro que reflete a jornada emocional e as resoluções não ditas. A música final não só fecha o ciclo do álbum, mas também encapsula o processo de crescimento e de encontrar a si mesmo. A decisão de Tyler em usar essa repetição reforça a ideia de que, embora cada passo seja uma busca por respostas, a vida e a música não seguem uma linha reta, mas são feitos de contínuos ciclos de aprendizagem e reconciliação.
+</p>
+<P>CHROMAKOPIA solidifica ainda mais o status de Tyler como um dos artistas mais inovadores da sua geração, com a combinação de seu estilo musical refinado, letras pessoais e experimentação sonora, marcando uma nova era em sua carreira.</p>
+</p>     
+<div class="intro">
+                <img src="I hope you .jpeg" alt="Capa do álbum Chromakopia">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="text-center" style="background-color: #008000; padding: 10px; color: white;">
+        <p>&copy; 2024 Chromakopia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqS3XQs04R9A2m5OUA5NpmBr+4U6U0p4F5pi6Z+DhVpdy" crossorigin="anonymous"></script>
+</body>
+</html>
